@@ -4,16 +4,8 @@ Study and practice project for a **Server CEM/ODM Product Manager** role — AI-
 the server manufacturing (NPI) product life cycle in English / 中文 / pinyin, and a hands-on
 data-analyst toolkit.
 
-## 🔗 Live interactive page
-
-The full interactive version (clickable pipeline, glossary search, data dashboard) can't run
-inside this README — GitHub doesn't execute HTML/JavaScript in Markdown. It runs as a hosted
-page instead:
-
-**➡️ https://YOUR-USERNAME.github.io/ai-pm-portfolio/**
-
-> Replace `YOUR-USERNAME` with your GitHub username. Turn it on: repo **Settings → Pages →
-> Deploy from branch → `main` → Save**. Locally, just open `index.html` in a browser.
+## 🔗 Live interactive page 
+**➡️ https://nanghomnoonaye.github.io/ai-pm-portfolio/**
 
 ---
 
