@@ -1,0 +1,7 @@
+station,first_pass_yield,units_tested
+SMT,0.985,9800
+PCBA_Test,0.972,9600
+Assembly,0.991,9300
+Function_Test,0.948,9200
+Burn_In,0.963,8700
+Packing,0.997,8500

@@ -1,0 +1,8 @@
+rma_cause,returns
+GPU thermal fail,41
+Coolant leak,33
+Power module fault,22
+Connector loose,15
+Firmware issue,12
+No fault found,9
+Other,6

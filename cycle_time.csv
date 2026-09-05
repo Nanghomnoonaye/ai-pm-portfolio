@@ -1,0 +1,7 @@
+station,cycle_time_sec
+SMT,210
+PCBA_Test,180
+Assembly,320
+Function_Test,540
+Burn_In,720
+Packing,150

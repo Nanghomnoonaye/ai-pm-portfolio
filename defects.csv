@@ -1,0 +1,11 @@
+defect_cause,count
+Solder bridge,103
+Cold solder,72
+GPU thermal fail,54
+Connector loose,35
+Firmware flash fail,32
+Coolant leak,25
+Missing component,22
+Label error,15
+Power module fault,10
+Cosmetic scratch,13
