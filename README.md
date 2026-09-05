@@ -8,7 +8,7 @@ and a hands-on data-analyst toolkit.
 
 Interactive lifecycle + glossary + data-analyst dashboard:
 
-**https://YOUR-USERNAME.github.io/ai-pm-portfolio/server_odm_product_lifecycle.html**
+**file:///Users/nanghomnoonaye/Library/Application%20Support/Claude/local-agent-mode-sessions/eade39ec-270d-4f23-8a1e-454014d6346c/20e3bf04-cd17-4334-9ddb-7139de13c7e1/local_92726d34-e2bd-442d-9e6e-ebee96728508/outputs/ai-pm-portfolio%202/server_odm_product_lifecycle.html**
 
 > Replace `YOUR-USERNAME` with your GitHub username. To turn it on: repo **Settings → Pages
 > → Deploy from branch → `main` → Save**, then open the link above.
