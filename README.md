@@ -1,1 +1,1 @@
-# ai-pm-portfolio
+# server MFG development lifecycle
