@@ -5,16 +5,7 @@ the server manufacturing (NPI) product life cycle in English / 中文 / pinyin, 
 data-analyst toolkit.
 
 ## 🔗 Live interactive page
-
-The full interactive version (clickable pipeline, glossary search, data dashboard) can't run
-inside this README — GitHub doesn't execute HTML/JavaScript in Markdown. It runs as a hosted
-page instead:
-
-**➡️ https://YOUR-USERNAME.github.io/ai-pm-portfolio/**
-
-> Replace `YOUR-USERNAME` with your GitHub username. Turn it on: repo **Settings → Pages →
-> Deploy from branch → `main` → Save**. Locally, just open `index.html` in a browser.
-
+**➡️ https://nanghomnoonaye.github.io/ai-pm-portfolio/**
 ---
 
 ## Product life cycle (NPI)
@@ -76,19 +67,9 @@ pip install -r requirements.txt
 python3 make_dataset.py       # creates the practice data
 python3 analyze_factory.py    # runs all 5 analyses -> chart PNGs
 ```
-
-## Files
-
-`index.html` — interactive page (Pipeline · Matrix · Glossary · Data · Mermaid) ·
-`AI_PM_Examples.xlsx` — AI-PM examples dataset ·
-`make_dataset.py` / `analyze_factory.py` — the data-analyst scripts.![Defect Pareto](data_analyst/charts/3_defect_pareto.png)
-
 ### 4. Cycle-time bottleneck — what limits throughput?
-![Bottleneck](data_analyst/charts/4_bottleneck.png)
 
 ### 5. RMA by cause — what fails in the field?
-![RMA by cause](data_analyst/charts/5_rma_by_cause.png)
-
 ---
 
 ## What's in this repo
