@@ -4,12 +4,20 @@ Study and practice project for a **Server CEM/ODM Product Manager** role — AI-
 the server manufacturing (NPI) product life cycle in English / 中文 / pinyin, and a hands-on
 data-analyst toolkit.
 
-## 🔗 Live interactive page 
-**➡️ https://nanghomnoonaye.github.io/ai-pm-portfolio/**
+## 🔗 Live interactive page
+
+The full interactive version (clickable pipeline, glossary search, data dashboard) can't run
+inside this README — GitHub doesn't execute HTML/JavaScript in Markdown. It runs as a hosted
+page instead:
+
+**➡️ https://YOUR-USERNAME.github.io/ai-pm-portfolio/**
+
+> Replace `YOUR-USERNAME` with your GitHub username. Turn it on: repo **Settings → Pages →
+> Deploy from branch → `main` → Save**. Locally, just open `index.html` in a browser.
 
 ---
 
-## Product life cycle (NPI) — renders on GitHub
+## Product life cycle (NPI)
 
 ```mermaid
 graph LR
@@ -39,19 +47,41 @@ graph LR
 
 ---
 
-## Data-analyst toolkit (charts show as images)
-
-The 5 analyses a Server ODM PM answers with data. Full code + how-to in
-[`data_analyst/README.md`](data_analyst/README.md).
+## Data-analyst toolkit — the 5 analyses a Server ODM PM answers with data
 
 ### 1. Yield trend — is the line ramping?
-![Yield trend](data_analyst/charts/1_yield_trend.png)
+![Yield trend](1_yield_trend.png)
 
 ### 2. First-pass yield by station — which station to fix first?
-![FPY by station](data_analyst/charts/2_fpy_by_station.png)
+![FPY by station](2_fpy_by_station.png)
 
 ### 3. Defect Pareto (柏拉圖) — the vital few causes
-![Defect Pareto](data_analyst/charts/3_defect_pareto.png)
+![Defect Pareto](3_defect_pareto.png)
+
+### 4. Cycle-time bottleneck — what limits throughput?
+![Bottleneck](4_bottleneck.png)
+
+### 5. RMA by cause — what fails in the field?
+![RMA by cause](5_rma_by_cause.png)
+
+### AI-PM skill emphasis
+![Skill heatmap](skill_heatmap.png)
+
+---
+
+## Run the analysis yourself
+
+```bash
+pip install -r requirements.txt
+python3 make_dataset.py       # creates the practice data
+python3 analyze_factory.py    # runs all 5 analyses -> chart PNGs
+```
+
+## Files
+
+`index.html` — interactive page (Pipeline · Matrix · Glossary · Data · Mermaid) ·
+`AI_PM_Examples.xlsx` — AI-PM examples dataset ·
+`make_dataset.py` / `analyze_factory.py` — the data-analyst scripts.![Defect Pareto](data_analyst/charts/3_defect_pareto.png)
 
 ### 4. Cycle-time bottleneck — what limits throughput?
 ![Bottleneck](data_analyst/charts/4_bottleneck.png)
